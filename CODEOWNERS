@@ -1,0 +1,3 @@
+# Checkout orchestration gRPC service.
+# Coordinates cart -> catalog -> currency -> shipping -> payment -> email.
+*   @wallmart-poc/cart-checkout
