@@ -1,0 +1,24 @@
+{
+  "identifier": "walmart-checkout",
+  "title": "Checkout Service",
+  "blueprint": "service",
+  "properties": {
+    "lifecycle": "production",
+    "criticality": "critical",
+    "slack_channel": "#cart-checkout",
+    "type": "grpc",
+    "tier": "backend",
+    "language": "Go",
+    "region": ["us-east-1", "us-west-2"]
+  },
+  "relations": {
+    "depends_on": [
+      "walmart-shipping",
+      "walmart-product-catalog",
+      "walmart-cart",
+      "walmart-currency",
+      "walmart-email",
+      "walmart-payments"
+    ]
+  }
+}
