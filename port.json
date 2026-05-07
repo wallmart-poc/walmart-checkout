@@ -9,7 +9,7 @@
     "type": "grpc",
     "tier": "backend",
     "language": "Go",
-    "region": ["us-east-1", "us-west-2", "ap-southeast-1"]
+    "region": ["us-east-1", "us-west-2"]
   },
   "relations": {
     "depends_on": [
